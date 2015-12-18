@@ -1,7 +1,7 @@
-$primary: #69d4ec;
+$primary: #1867de;
 $text: #202020;
-$theme: #D7FAFF;
-$shade: #e2e5e7;
-$shade10: #b4b8b7;
-$shade15: rgba(#ecf4f5, 0.8);
+$theme: rgba(#ffde00, 0.2); // info box
+$shade: rgba($text, .15); // border
+$shade10: rgba($primary, .3);
+$shade15: rgba(#bac6cd, 0.3);
 $inactive: #b1b1b1;

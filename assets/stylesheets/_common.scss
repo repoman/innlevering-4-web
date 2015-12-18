@@ -7,6 +7,15 @@ a {
   color: $text;
 }
 
+.back-button {
+  margin-bottom: 14px;
+  a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
 .wrap {
   max-width: 440px;
   margin: 0 auto;
@@ -26,21 +35,23 @@ a {
   box-sizing: border-box;
   margin-bottom: 20px;
   line-height: 1.4;
+  text-align: center;
 }
 
 .button {
   display: block;
   width: 100%;
-  background-color: $theme;
+  background-color: $primary;
+  color: white;
   padding: 12px 0;
   box-sizing: border-box;
   border-radius: 3px;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .confirmation-details {
@@ -62,7 +73,7 @@ a {
   li {
     position: relative;
     display: block;
-    padding: 10px 0;
+    padding: 12px 0;
     @include clearfix;
     p {
       float: left;
@@ -83,8 +94,8 @@ a {
       border: 1px solid $primary;
       color: $primary;
       border-radius: 3px;
-      padding: 7px 8px 6px 8px;
-      font-size: 11px;
+      padding: 8px 9px 7px 9px;
+      font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
     }
