@@ -154,6 +154,9 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+.button:hover {
+  background-color: rgba(24, 103, 222, 0.85); }
+
 .confirmation-details label {
   margin-bottom: 6px;
   display: block;
@@ -195,6 +198,8 @@ a {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase; }
+  .available-help li a:hover {
+    border: 1px solid rgba(24, 103, 222, 0.6); }
 
 .available-help li + li {
   border-top: 1px solid rgba(32, 32, 32, 0.15); }

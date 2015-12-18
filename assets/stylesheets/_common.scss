@@ -54,6 +54,10 @@ a {
   letter-spacing: 1px;
 }
 
+.button:hover {
+  background-color: rgba($primary, .85);
+}
+
 .confirmation-details {
   label {
     margin-bottom: 6px;
@@ -98,6 +102,9 @@ a {
       font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
+    }
+    a:hover {
+      border: 1px solid rgba($primary, .6);
     }
   }
   li + li {
