@@ -1,32 +1,28 @@
 .home {
   .action-buttons {
     margin-bottom: 18px;
+    border: 1px solid $primary;
+    border-radius: 3px;
+    background-color: $primary;
     @include clearfix;
     a {
       font-family: "Lato", sans-serif;
+      text-align: center;
       display: block;
       box-sizing: border-box;
-      border: 0;
       padding: 12px 0 11px;
-      padding-left: 14px;
-      border-radius: 4px;
-      width: calc(50% - 5px);
+      width: 50%;
       float: left;
-      background-color: $theme;
-      border: 1px solid $theme;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: $text;
-      text-align: left;
+      color: white;
     }
 
     a + a {
-      margin-left: 10px;
-      background-color: transparent;
-      border: 1px solid $primary;
-      color: $inactive;
+      background-color: white;
+      color: $primary;
     }
   }
 

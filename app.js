@@ -6,7 +6,6 @@ var methodOverride = require('method-override');
 
 var app = express();
 
-
 var production = process.env.NODE_ENV === 'production';
 var port = process.env.PORT || 3000;
 

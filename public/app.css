@@ -229,34 +229,30 @@ a {
   margin-bottom: 12px; }
 
 .home .action-buttons {
-  margin-bottom: 18px; }
+  margin-bottom: 18px;
+  border: 1px solid #69d4ec;
+  border-radius: 3px;
+  background-color: #69d4ec; }
   .home .action-buttons::after {
     clear: both;
     content: "";
     display: table; }
   .home .action-buttons a {
     font-family: "Lato", sans-serif;
+    text-align: center;
     display: block;
     box-sizing: border-box;
-    border: 0;
     padding: 12px 0 11px;
-    padding-left: 14px;
-    border-radius: 4px;
-    width: calc(50% - 5px);
+    width: 50%;
     float: left;
-    background-color: #D7FAFF;
-    border: 1px solid #D7FAFF;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #202020;
-    text-align: left; }
+    color: white; }
   .home .action-buttons a + a {
-    margin-left: 10px;
-    background-color: transparent;
-    border: 1px solid #69d4ec;
-    color: #b1b1b1; }
+    background-color: white;
+    color: #69d4ec; }
 
 .home hr {
   height: 1px;
