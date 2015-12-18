@@ -263,6 +263,8 @@ a {
   .home .action-buttons a.active {
     color: white;
     background-color: transparent; }
+  .home .action-buttons a:hover {
+    opacity: 0.95; }
 
 .home .status {
   font-weight: 600;
