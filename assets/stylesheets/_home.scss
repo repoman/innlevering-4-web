@@ -17,13 +17,18 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: white;
-    }
-
-    a + a {
       background-color: white;
       color: $primary;
     }
+    a.active {
+      color: white;
+      background-color: transparent;
+    }
+  }
+
+  .status {
+    font-weight: 600;
+    font-size: 17px;
   }
 
   hr {
@@ -47,5 +52,9 @@
       margin-bottom: 8px;
       @include clearfix;
     }
+  }
+
+  .give-help {
+    display: none;
   }
 }

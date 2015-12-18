@@ -249,10 +249,15 @@ a {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white; }
-  .home .action-buttons a + a {
     background-color: white;
     color: #69d4ec; }
+  .home .action-buttons a.active {
+    color: white;
+    background-color: transparent; }
+
+.home .status {
+  font-weight: 600;
+  font-size: 17px; }
 
 .home hr {
   height: 1px;
@@ -275,3 +280,6 @@ a {
     clear: both;
     content: "";
     display: table; }
+
+.home .give-help {
+  display: none; }
