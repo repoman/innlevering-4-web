@@ -1,0 +1,75 @@
+body, canvas, html, div, p, a, blockquote, img, label, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, fieldset, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html, body, div, span {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+ul {
+  -webkit-padding-start: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+textarea {
+  outline: 0;
+  border: solid 1px;
+  margin: 0;
+}
+
+input, button:focus {
+  outline: 0;
+}
+
+input[type=text] {
+  border: 1px solid;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  margin: 0;
+}
+
+body, input, button, textarea {
+  -webkit-font-smoothing: antialiased;
+  // legg inn firefox smuding
+}
+
+pre {
+  padding: 8px 12px;
+  font-size: 15px;
+  background-color: #eee;
+  color: #333;
+  border-left: 3px solid #ccc;
+  line-height: 1.45;
+}

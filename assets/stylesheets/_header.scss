@@ -1,0 +1,57 @@
+header {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid $shade;
+  @include clearfix;
+
+  h1 {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  nav {
+    margin-top: 12px;
+    float: right;
+  }
+
+  i {
+    margin-top: 20px;
+    width: 27px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('/public/burger-icon.png');
+    background-size: 27px 24px;
+  }
+
+  i:before {
+    content: 'meny';
+    display: block;
+    margin-left: -46px;
+    margin-top: 3px;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  li {
+    float: left;
+
+    a {
+      padding: 0 8px 8px;
+      border-bottom: 1px solid $primary;
+    }
+  }
+
+  li + li {
+    margin-left: 12px;
+  }
+}

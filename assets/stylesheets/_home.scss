@@ -1,0 +1,55 @@
+.home {
+  .action-buttons {
+    margin-bottom: 18px;
+    @include clearfix;
+    a {
+      font-family: "Lato", sans-serif;
+      display: block;
+      box-sizing: border-box;
+      border: 0;
+      padding: 12px 0 11px;
+      padding-left: 14px;
+      border-radius: 4px;
+      width: calc(50% - 5px);
+      float: left;
+      background-color: $theme;
+      border: 1px solid $theme;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: $text;
+      text-align: left;
+    }
+
+    a + a {
+      margin-left: 10px;
+      background-color: transparent;
+      border: 1px solid $primary;
+      color: $inactive;
+    }
+  }
+
+  hr {
+    height: 1px;
+    background-color: $shade;
+    border:0;
+    margin-bottom: 20px;
+  }
+
+  .missing-classes {
+    p {
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      border-radius: 3px;
+      font-size: 15px;
+      border: 1px solid $shade;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-bottom: 8px;
+      @include clearfix;
+    }
+  }
+}

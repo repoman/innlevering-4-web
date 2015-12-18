@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  background-color: $shade15;
+}
+
+a {
+  color: $text;
+}
+
+.wrap {
+  max-width: 440px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.information {
+  display: inline-block;
+  width: 100%;
+  clear: both;
+  background-color: $theme;
+  padding: 8px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: $theme;
+  padding: 12px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.confirmation-details {
+  label {
+    margin-bottom: 6px;
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: $text;
+    letter-spacing: 1px;
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+.available-help {
+  li {
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    @include clearfix;
+    p {
+      float: left;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+    span {
+      float: left;
+      clear: left;
+      font-size: 13px;
+      color: $shade10;
+    }
+    a {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      float: right;
+      border: 1px solid $primary;
+      color: $primary;
+      border-radius: 3px;
+      padding: 7px 8px 6px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  li + li {
+    border-top: 1px solid $shade;
+  }
+}
+
+.helpers {
+  margin-bottom: 20px;
+  li {
+    @include clearfix;
+    img {
+      float: left;
+      width: 64px;
+      margin-right: 20px;
+      border-radius: 999px;
+      border: 2px solid $text;
+    }
+    h1 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-top: 11px;
+      margin-bottom: 6px;
+    }
+  }
+  li + li {
+    margin-top: 18px;
+  }
+}
+
+.date-form {
+  label {
+    color: $text;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    display: block;
+    margin-bottom: 3px;
+  }
+  input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid $shade;
+    border-radius: 3px;
+    margin-bottom: 12px;
+  }
+}

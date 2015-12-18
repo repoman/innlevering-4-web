@@ -1,0 +1,29 @@
+include mixins/css
+
+doctype html
+html(lang='en')
+  head
+    title Studiehjelp
+    meta(charset='utf-8')
+    +css('app.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    block head
+
+  body(class=bodyClass)
+    .wrap
+      header
+        h1
+          a(href="/") Studiehjelp
+        nav
+          i
+          ul
+            li
+              a(href="/") Forside
+            li
+              a(href="/fa-hjelp") Få hjelp
+            li
+              a(href="/gi-hjelp") Gi hjelp
+      .content
+        block content
+      footer
+        //p Footer

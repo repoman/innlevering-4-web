@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  p.information Send forespørsel om studiehjelp i C-programmering
+  
+  ul.helpers
+    li
+      a(href="/lag-avtale")
+        img(src="/public/p1.png")
+      a(href="/lag-avtale")
+        h1 Mona L.
+      a(href="/lag-avtale")
+        p Kan C og vitseskriving, liker øl.
+  
+  .date-form
+    label Når vil du
+    input(placeholder="I kveld kl. 19.30")
+    label Avdeling
+    input(placeholder="Galleriet")
+    label Rom
+    input(placeholder="41")
+    
+    a.button(href="/kvittering") Send forespørsel

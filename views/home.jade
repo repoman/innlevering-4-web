@@ -1,0 +1,47 @@
+extends layout
+
+block content
+  .action-buttons
+    a(href="/fa-hjelp") Få hjelp
+    a(href="/gi-hjelp") Gi hjelp
+  p 24 fag har tilgjenglige hjelpere
+  br
+  ul.available-help
+    li
+      p C-programmering
+      span 4 hjelpere
+      a(href="/velg-hjelper") Velg hjelper
+    li
+      p TV-regi
+      span 2 hjelpere
+      a(href="/velg-hjelper") Velg hjelper
+    li
+      p Vitseskriving 2
+      span 1 hjelper
+      a(href="/velg-hjelper") Velg hjelper
+    li
+      p Grensesnittdesign
+      span 1 hjelper
+      a(href="/velg-hjelper") Velg hjelper
+    li
+      p JavaScript for Wii
+      span 1 hjelper
+      a(href="/velg-hjelper") Velg hjelper
+    li
+      p Dramaturgi i film
+      span 1 hjelper
+      a(href="/velg-hjelper") Velg hjelper
+  hr
+  .missing-classes
+    p Er det fag du savner?
+    input(placeholder="Fag eller tema")
+    a.button(href="") Vis interesse
+    ul.available-help
+      li
+        p Infosec
+        span 3 interesserte
+        a(href="/kontakt") Gi hjelp
+      li
+        p PG1100
+        span 2 interesserte
+        a(href="/kontakt") Gi hjelp
